@@ -3,8 +3,7 @@ import numpy as np
 
 
 #haarcascade  frontal face classier
-face_cascade = cv2.CascadeClassifier(
-    r"C:\Users\hp\AppData\Local\Programs\Python\Python310\Lib\site-packages\cv2\data\haarcascade_frontalface_default.xml")
+face_cascade = cv2.CascadeClassifier("haarcascade_frontalface_default.xml")
 
 #read image
 img = cv2.imread("smile.jpg", 1)
@@ -21,5 +20,4 @@ for (x, y, w, h) in faces:
     if cv2.waitKey() == 0xff:
         break
 
-cv2.destroyAllWindows()
 cv2.destroyAllWindows()
