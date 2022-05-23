@@ -6,6 +6,6 @@
 haarcascade_frontalface_default.xml
 
 ## install required libraries:
-pip install opencv-python
-pip install opencv-contrib-python
-pip install numpy
+* pip install opencv-python 
+* pip install opencv-contrib-python
+* pip install numpy
