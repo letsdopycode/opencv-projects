@@ -1,6 +1,6 @@
 # opencv-facedetection-project
 
-### detect human face from images using python opencv library
+### detect human faces from image using python opencv library
 
 ## classifier used for face detection
 haarcascade_frontalface_default.xml
